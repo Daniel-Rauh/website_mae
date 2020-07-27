@@ -1,0 +1,222 @@
+html{
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+body{
+    margin: 0;
+}
+#hero{
+    height: 93vh;
+    display: flex;
+    background: #FEE1CD;
+}
+#hero div:nth-of-type(1){
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero h1{
+    color: #7D554A;
+    font-size: 4rem;
+    text-align: center;
+    line-height: 90px;
+}
+.break{
+    display: block;
+}
+.hero-img{
+    width: 60%;
+    background: url(https://source.unsplash.com/random?1) center/cover no-repeat;
+}
+nav{
+    position: sticky;
+    top: 0;
+    height: 7vh;
+    width: 90%;
+    background: #7D554A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    z-index: 10;
+}
+nav div{
+    width: 40px;
+    height: 40px;
+    background-color: #FEE1CD;
+    border-radius: 50%;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+}
+nav ul li{
+    display: inline;
+    margin-left: 50px;
+}
+nav ul li a{
+    color: #FEE1CD;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+.active{
+    color: #D6ACA8;
+}
+#categories{
+    height: 93vh;
+    background: #D6ACA8;
+    position: relative;
+}
+#categories a{
+    color: #FEE1CD;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 134px 130px;
+    transition: color .4s;
+    position: absolute;
+    transition: all .2s;
+    box-shadow: 1px 1px 12px 2px #333;
+}
+#categories a:hover{
+    color: #D6ACA8;
+    transform: scale(1.1);
+    box-shadow: 1px 1px 16px 8px #333;
+}
+#categories a:nth-of-type(1):hover{
+    z-index: 9;
+}
+#categories a:nth-of-type(2):hover{
+    z-index: 9;
+}
+#categories a:nth-of-type(3):hover{
+    z-index: 9;
+}
+#categories a:nth-of-type(4):hover{
+    z-index: 9;
+}
+#categories a:nth-of-type(5):hover{
+    z-index: 9;
+}
+#categories a:nth-of-type(6):hover{
+    z-index: 9;
+}
+#categories a:nth-of-type(7):hover{
+    z-index: 9;
+}
+#categories a:nth-of-type(8):hover{
+    z-index: 9;
+}
+#categories a:nth-of-type(1){
+    background: url(https://source.unsplash.com/random?2);
+    top: 3%;
+    left: 10%;
+    z-index: 2;
+}
+#categories a:nth-of-type(2){
+    background: url(https://source.unsplash.com/random?3);
+    top: 40%;
+    left: 5%;
+    z-index: 3;
+}
+#categories a:nth-of-type(3){
+    background: url(https://source.unsplash.com/random?4);
+    top: 33%;
+    left: 25%;
+    z-index: 4;
+}
+#categories a:nth-of-type(4){
+    background: url(https://source.unsplash.com/random?5);
+    top: 6%;
+    left: 35%;
+    z-index: 5;
+}
+#categories a:nth-of-type(5){
+    background: url(https://source.unsplash.com/random?6);
+    top: 45%;
+    left: 60%;
+    z-index: 6;
+}
+#categories a:nth-of-type(6){
+    background: url(https://source.unsplash.com/random?7);
+    top: 20%;
+    left: 50%;
+    z-index: 5;
+}
+#categories a:nth-of-type(7){
+    background: url(https://source.unsplash.com/random?8);
+    top: 10%;
+    left: 70%;
+    z-index: 7;
+}
+#categories a:nth-of-type(8){
+    background: url(https://source.unsplash.com/random?9);
+    top: 50%;
+    left: 40%;
+    z-index: 4;
+}
+#working{
+    height: 86vh;
+    display: flex;
+    background: #FEE1CD;
+}
+#working div:nth-of-type(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.working-img{
+    background: url(../img/IMG-20200523-WA0002.jpg) center/cover no-repeat;
+    width: 90%;
+    height: 70%;
+}
+#working div:nth-of-type(2){
+    width: 50%;
+    padding: 5%;
+}
+#working div:nth-of-type(2) p{
+    color: #333;
+    font-size: 1.5rem;
+    line-height: 40px;
+    text-align: center;
+    margin: 40px 0 80px;
+}
+#working div:nth-of-type(2) a{
+    background: #7D554A;
+    color: #FEE1CD;
+    font-size: 1.5rem;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    text-decoration: none;
+    border-radius: 15px;
+    border: 2px solid #7D554A;
+    transition: color .2s, background .4s;
+}
+#working div:nth-of-type(2) a:hover{
+    background: #FEE1CD;
+    color: #7D554A;
+}
+footer{
+    background: #7D554A;
+    height: 7vh;
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer p{
+    color: #D6ACA8;
+}
+footer a{
+    font-size: 2rem;
+    margin: 0;
+    color: #FEE1CD;
+    text-decoration: none;
+}
